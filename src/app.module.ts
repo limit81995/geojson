@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 
 @Module({
   controllers: [AppController],
-  providers: [AppService],
+  providers: [],
   imports: [],
 })
 export class AppModule {}
